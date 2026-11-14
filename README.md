@@ -1,2 +1,2 @@
-# RepoForProject3wjavascript
-Project 3 is grabbing the website we made already and adding logic to a fourth page
+# Project-1-Repo
+Repo for Project 1 No CSS (Resume website)

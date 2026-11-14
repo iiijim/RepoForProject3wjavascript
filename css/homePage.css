@@ -1,0 +1,77 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  background-color: brown;
+}
+
+/* this is style one (changes the color of the page's body) */
+
+body{
+  background-color: rgb(6, 6, 125);
+}
+
+/* this is style two (changes the color of the heading text) Im counting all of this as one styling*/
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+/* this is style three (changes the color of the paragraph text) */
+
+p{
+  color: white;
+}
+
+/* this is style four (makes the images smaller) */
+
+img{
+  width: 25rem;
+}
+
+/* this is style five (adds a border to the sub headings) */
+
+h2{
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkred;
+}
+
+/* this is the css code to make the homepage fluid */
+
+body{
+  font-size: 20px;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.2rem;
+}

@@ -1,0 +1,66 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  background-color: brown;
+}
+
+/* this is style one (changes the color of the page's body) */
+
+body{
+  background-color: rgb(6, 6, 125);
+}
+
+/* this is style two (changes the color of the heading text) Im counting all of this as one styling*/
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+/* this is style three (changes the color of the paragraph text) */
+
+p{
+  color: white;
+}
+
+/* this is style four (makes the images smaller) */
+
+img{
+  width: 200px;
+}
+
+/* this is style five (makes the video bigger) */
+
+video{
+  width: 250px;
+  height: 250px;
+}
+
+/* this is the stuff to make the page fixed */
+
+#content-wrapper{
+  width: 960px; /* sets the width of the container */
+  margin: 0 auto; /* margin with auto centers the elements in the container */
+  border-radius: 12px 12px 0px 0px;
+}
