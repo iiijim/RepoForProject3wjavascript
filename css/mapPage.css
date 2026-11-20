@@ -1,3 +1,5 @@
+/* this is the styling for the navigation */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,5 +22,14 @@ ul li a {
 
 ul li a:hover{
   background-color: brown;
+}
+
+/* down here is the styling copied over */
+
+#canvas {
+width: 700px;
+height: 500px;
+background-color: #ccc;
+margin: 30px auto;
 }
 
