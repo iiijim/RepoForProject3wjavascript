@@ -22,10 +22,14 @@ ul li a:hover{
   background-color: brown;
 }
 
-/* this is style one (changes the color of the page's body) */
-
 body{
   background-color: rgb(6, 6, 125);
+}
+
+@media screen and (max-width: 700px){
+  body{
+    background-color: black;
+  }  
 }
 
 /* this is style two (changes the color of the heading text) Im counting all of this as one styling*/
@@ -75,5 +79,6 @@ h2{
 p{
   font-size: 1.2rem;
 }
+
 
 
