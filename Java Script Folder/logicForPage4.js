@@ -16,8 +16,9 @@ function initMap(){
     new google.maps.Marker({
         position: { lat: 41.88835, lng: -87.79684 },
         map,
+        animation: google.maps.Animation.BOUNCE,
         title: "3rd thing",
-        icon: "Media/Images/IHadToAddAnotherImages"
+        icon: "Media/Images/IHadToAddAnotherImages.png"
     })
 
     new google.maps.Marker({
